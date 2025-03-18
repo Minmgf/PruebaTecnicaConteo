@@ -24,8 +24,6 @@ Abre una terminal y ejecuta el siguiente comando para clonar el proyecto desde G
 git clone https://github.com/Minmgf/PruebaTecnicaConteo.git
 ```
 
-> 🔹 *Reemplaza `usuario` y `repositorio` por el usuario y el nombre del repositorio en GitHub.*
-
 ### 2️⃣ Acceder al Directorio del Proyecto
 Después de clonar el repositorio, entra en la carpeta del proyecto:
 
@@ -61,22 +59,5 @@ Puedes ver la aplicación en funcionamiento en el siguiente enlace:
 
 ---
 
-### 🎯 Opcional: Ejecutar Scripts Adicionales
-Dependiendo del proyecto, pueden existir otros scripts útiles:
-
-- **Compilar el código:**  
-  ```bash
-  yarn build
-  ```
-- **Ejecutar pruebas:**  
-  ```bash
-  yarn test
-  ```
-- **Verificar errores de formato:**  
-  ```bash
-  yarn lint
-  ```
-
----
 
 ✅ ¡Listo, ya tienes el proyecto corriendo! 🚀
