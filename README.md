@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PruebaTencincaConteo con Next.js
 
-## Getting Started
+Esta aplicación es un sistema de gestión de inventario básico desarrollado con Next.js que permite crear y gestionar elementos.
 
-First, run the development server:
+## 📌 Características
+
+- Interfaz de usuario moderna y responsive
+- Formulario para crear nuevos elementos
+- Operaciones CRUD completas
+- Desarrollado con Next.js 14
+
+## 🛠️ Tecnologías Utilizadas
+
+- [Next.js](https://nextjs.org) - Framework de React
+- Tailwind CSS - Para los estilos
+- React - Biblioteca de UI
+
+## 📥 Instalación
+
+### 1️⃣ Clonar el Repositorio
+Abre una terminal y ejecuta el siguiente comando para clonar el proyecto desde GitHub:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Minmgf/PruebaTecnicaConteo.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 🔹 *Reemplaza `usuario` y `repositorio` por el usuario y el nombre del repositorio en GitHub.*
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 2️⃣ Acceder al Directorio del Proyecto
+Después de clonar el repositorio, entra en la carpeta del proyecto:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd repositorio
+```
 
-## Learn More
+### 3️⃣ Instalar Dependencias
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> 💡 *Este comando lee el archivo `package.json` y descarga todas las dependencias en la carpeta `node_modules`.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4️⃣ Iniciar el Proyecto
+Para ejecutar la aplicación en modo desarrollo, usa:
 
-## Deploy on Vercel
+```bash
+yarn dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> 💡 *Algunos proyectos pueden requerir `yarn start` en lugar de `yarn dev`, verifica en la documentación del repositorio.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔎 Verificar que Todo Funcione Correctamente
+Si el proyecto es una aplicación web, revisa la terminal para encontrar la URL donde está corriendo (normalmente `http://localhost:3000` o `http://localhost:5173`).
+
+## 🌐 Live Demo
+Puedes ver la aplicación en funcionamiento en el siguiente enlace:
+
+🔗 **[Prueba Técnica Conteo](https://prueba-tecnica-conteo.vercel.app/)**
+
+---
+
+### 🎯 Opcional: Ejecutar Scripts Adicionales
+Dependiendo del proyecto, pueden existir otros scripts útiles:
+
+- **Compilar el código:**  
+  ```bash
+  yarn build
+  ```
+- **Ejecutar pruebas:**  
+  ```bash
+  yarn test
+  ```
+- **Verificar errores de formato:**  
+  ```bash
+  yarn lint
+  ```
+
+---
+
+✅ ¡Listo, ya tienes el proyecto corriendo! 🚀
